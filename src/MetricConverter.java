@@ -22,5 +22,7 @@ public class MetricConverter {
         inches = feet / 12;
 
         System.out.printf("The distance you entered %,.4f meters is %,.2f miles, or %,.2f feet, or %,.2f inches.", meter, miles, feet, inches);
+
+        in.close();
     }
 }
